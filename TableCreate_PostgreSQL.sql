@@ -46,7 +46,7 @@ CREATE TABLE dept_emp(
 	primary key(emp_no, dept_no)
 	);
 CREATE TABLE dept_manager(
-	dept_no VARCHAR(30) NOT NULL,
+	dept_no VARCHAR(4) NOT NULL,
 	emp_no INT NOT NULL,
 	primary key(dept_no, emp_no)
 	);
