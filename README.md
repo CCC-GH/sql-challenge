@@ -1,10 +1,14 @@
 ## 09-SQL Homework: sql-challenge
 
-####  **Data Modeling:** Two ERD diagrams avail, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
-####  **CSV input data:** "EmployeeSQL" folder (6 of them)
-####  **Data Engineering:** "Full_Script_pgAdin4" (top section)
-####  **Data Analysis:** "Full_Script_pgAdin4" (bottom section)
-####  **CSV output data:** "output" folder, file name "Report[1-8]" (8 CSV lists)
+**Data Modeling:** Two ERD diagrams avail, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
+
+**CSV input data:** "EmployeeSQL" folder (6 of them)
+
+**Data Engineering:** "Full_Script_pgAdin4" (top section)
+
+**Data Analysis:** "Full_Script_pgAdin4" (bottom section)
+
+**CSV output data:** "output" folder, file name "Report[1-8]" (8 CSV lists)
 
 ```Extra: Microsoft approach solution, MS-SQL-DB/SSMS, is also available within under "AnotherApproach_withMicrosoft-SQL"```
 
