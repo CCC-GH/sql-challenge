@@ -5,16 +5,16 @@
      * [ERD_MS-SSMS](ERD_MS-SSMS.png) from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
  * **Data Engineering** - run/view "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
  * **Data Analysis** - run/view "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
- * **Input CSV data** - located within [EmployeeSQL folder](/EmployeeSQL) (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
- * **Output CSV data** - within data analysis [output folder](/output), file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
- * **Assignment material** - located within "HW" folder.
+ * **Input CSV data** - located within [EmployeeSQL](/EmployeeSQL) folder (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
+ * **Output CSV data** - within data analysis [output](/output) folder, file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
+ * **Assignment material** - located within [HW](/HW) folder.
   
 
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
 #### Data Analysis;  Report[1-8].csv  *(stored in "output" folder)*
   
-> [output folder](/output) (note: a couple reports to large to display in git)
+> [output](/output) folder (note: a couple reports to large to display in git)
 
 1. [List the following details of each employee: employee number, last name, first name, gender, and salary.](/output/Report1.csv)
 2. [List employees who were hired in 1986.](/output/Report2.csv)
