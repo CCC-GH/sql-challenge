@@ -1,5 +1,5 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
-## SQL-Challenge with PostgreSQL-13![](/postgres.jpg)
+## SQL-Challenge with PostgreSQL ![](/postgres.jpg)
  * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
  * **Data Engineering:** "Full_Script_pgAdin4" (top section)
  * **Data Analysis:** "Full_Script_pgAdin4" (bottom section)
