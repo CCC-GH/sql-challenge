@@ -4,7 +4,7 @@
  * **Data Engineering:** "Full_Script_pgAdin4" (top section)
  * **Data Analysis:** "Full_Script_pgAdin4" (bottom section)
  * **Input CSV data:** "EmployeeSQL" folder (6 of them)
- * **Output CSV data:** "output" folder, file name "Report[1-8]" (8 CSV lists)
+ * **Output CSV data:** Data Analysis "output" folder, file name "Report[1-8]" (8 CSV lists)
 
 ![](/MS-SQL-SSMS_Approach/ssms.PNG)```In addtion, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder"```
 
