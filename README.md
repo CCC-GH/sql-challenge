@@ -13,7 +13,7 @@
 --------------------------
 #### Data Analysis;  Report[1-8].csv  *(stored in "output" folder)*
   
-> (https://www.github.com/CCC_GH/sql-challenge/tree/main/output)
+> (https://github.com/CCC_GH/sql-challenge/tree/main/output)
 
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 2. List employees who were hired in 1986.
