@@ -1,19 +1,20 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
-## SQL-Challenge with PostgreSQL ![](/postgres.jpg)
+## SQL-Challenge with PostgreSQL ![](/postgresImage.jpg)
  * **Data Modeling** - two Entity Relationship Diagram (ERD) diagrams available:
-     * "ERD_Quickdatabasediagrams" from the following website: (http://www.quickdatabasediagrams.com).
-     * "ERD_MS-SSMS" from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
- * **Data Engineering** - within "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
- * **Data Analysis** - within "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
- * **Input CSV data** - "EmployeeSQL" folder (6 of them - listing below).
- * **Output CSV data** - data analysis "output" folder, file name "Report[1-8]" *(see list/link below).*
+     * ["ERD_Quickdatabasediagrams"](ERD_Quickdatabasediagrams.png) from the following website: (http://www.quickdatabasediagrams.com).
+     * ["ERD_MS-SSMS"](ERD_MS-SSMS.png) from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
+ * **Data Engineering** - run "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
+ * **Data Analysis** - run "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
+ * **Input CSV data** - located within ["EmployeeSQL" folder](/EmployeeSQL) (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
+ * **Output CSV data** - within data analysis ["output" folder](/output), file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
  * **Assignment material** - located within "HW" folder.
+  
 
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
 #### Data Analysis;  Report[1-8].csv  *(stored in "output" folder)*
   
-> [output folder](/output)
+> [output folder](/output) (note: a couple reports to large to display in git)
 
 1. [List the following details of each employee: employee number, last name, first name, gender, and salary.](/output/Report1.csv)
 2. [List employees who were hired in 1986.](/output/Report2.csv)
@@ -23,19 +24,3 @@
 6. [List all employees in the Sales department, including their employee number, last name, first name, and department name.](/output/Report6.csv)
 7. [List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.](/output/Report7.csv)
 8. [In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.](/output/Report8.csv)
-<!--
-#### Bonus (Optional)
-As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
-
-1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
-   ```sql
-   from sqlalchemy import create_engine
-   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-   connection = engine.connect()
-   ```
-* Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
-* If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://martin-thoma.com/configuration-files-in-python/](https://martin-thoma.com/configuration-files-in-python/) for more information.
-
-2. Create a histogram to visualize the most common salary ranges for employees.
-3. Create a bar chart of average salary by title.
--->
