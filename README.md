@@ -1,24 +1,17 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
 ## SQL-Challenge with PostgreSQL ![](/postgres.jpg)
- * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
- * **Data Engineering:** "Full_Script_pgAdin4" (top section)
- * **Data Analysis:** "Full_Script_pgAdin4" (bottom section)
- * **Input CSV data:** "EmployeeSQL" folder (6 of them)
+ * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available:
+      "ERD_Quickdatabasediagrams" from the following website: http://www.quickdatabasediagrams.com 
+      "ERD_MS-SSMS" from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design)
+ * **Data Engineering:** "Full_Script_pgAdin4" (top section of full script creates database Tables/schema, keys, and loads 6 csv files.
+ * **Data Analysis:** "Full_Script_pgAdin4" (bottom section of full script loads)
+ * **Input CSV data:** "EmployeeSQL" folder (6 of them - listing below)
  * **Output CSV data:** Data Analysis "output" folder, file name "Report[1-8]" (8 CSV lists)
+ * **Assignment material:** located within "HW" folder
 
    > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
-### Assignment/Homework Detail *(located within "HW" folder)*: 
-
-#### Data Modeling
- * Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
-
-#### Data Engineering
- * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
- * Import each CSV file into the corresponding SQL table.
-
-#### Data Analysis
-Once you have a complete database, do the following:
+#### Data Analysis *(stored in "output" folder)*
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 2. List employees who were hired in 1986.
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
