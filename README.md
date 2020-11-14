@@ -32,8 +32,8 @@ Once you have a complete database, do the following:
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-
-## Bonus (Optional)
+<!--
+#### Bonus (Optional)
 
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
 
@@ -48,3 +48,4 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 3. Create a bar chart of average salary by title.
+-->
