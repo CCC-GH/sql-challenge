@@ -6,7 +6,7 @@
  * **Input CSV data:** "EmployeeSQL" folder (6 of them)
  * **Output CSV data:** Data Analysis "output" folder, file name "Report[1-8]" (8 CSV lists)
 
-![](/MS-SQL-SSMS_Approach/ssms.PNG)```In addtion, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder"```
+```In addtion, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder"```![](/MS-SQL-SSMS_Approach/ssms.PNG)
 
 ### Assignment/Homework Detail *(located within "HW" folder)*: 
 
