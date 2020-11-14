@@ -1,5 +1,5 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
-## sql-challenge with PostgreSQL-13![](/postgres.jpg)
+## SQL-Challenge with PostgreSQL-13![](/postgres.jpg)
  * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
  * **Data Engineering:** "Full_Script_pgAdin4" (top section)
  * **Data Analysis:** "Full_Script_pgAdin4" (bottom section)
@@ -8,7 +8,7 @@
 
 ![](/MS-SQL-SSMS_Approach/ssms.PNG)```In addtion, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder"```
 
-### Assignment/Homework detail *(located within "HW" folder)*: 
+### Assignment/Homework Detail *(located within "HW" folder)*: 
 
 #### Data Modeling
  * Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
