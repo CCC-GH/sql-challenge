@@ -1,45 +1,26 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
-## sql-challenge![](/postgres.jpg)
- * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
- * **Data Engineering:** "Full_Script_pgAdin4" (top section)
- * **Data Analysis:** "Full_Script_pgAdin4" (bottom section)
- * **Input CSV data:** "EmployeeSQL" folder (6 of them)
- * **Output CSV data:** "output" folder, file name "Report[1-8]" (8 CSV lists)
+## SQL-Challenge with PostgreSQL ![](/postgresImage.jpg)
+ * **Data Modeling** - two Entity Relationship Diagram (ERD) diagrams available:
+     * [ERD_Quickdatabasediagrams](ERD_Quickdatabasediagrams.png) from the following website: (http://www.quickdatabasediagrams.com).
+     * [ERD_MS-SSMS](ERD_MS-SSMS.png) from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
+ * **Data Engineering** - run "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
+ * **Data Analysis** - run "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
+ * **Input CSV data** - located within [EmployeeSQL folder](/EmployeeSQL) (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
+ * **Output CSV data** - within data analysis [output folder](/output), file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
+ * **Assignment material** - located within "HW" folder.
+  
 
-![](/MS-SQL-SSMS_Approach/ssms.PNG)  ```Extra: Microsoft approach solution, MS-SQL-DB/SSMS, is also available within under "MS-SQL-SSMS_Approach"```
+    > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
+--------------------------
+#### Data Analysis;  Report[1-8].csv  *(stored in "output" folder)*
+  
+> [output folder](/output) (note: a couple reports to large to display in git)
 
-### Assignment/Homework detail *(located within "HW" folder)*: 
-
-#### Data Modeling
- * Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
-
-#### Data Engineering
- * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
- * Import each CSV file into the corresponding SQL table.
-
-#### Data Analysis
-Once you have a complete database, do the following:
-1. List the following details of each employee: employee number, last name, first name, gender, and salary.
-2. List employees who were hired in 1986.
-3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
-4. List the department of each employee with the following information: employee number, last name, first name, and department name.
-5. List all employees whose first name is "Hercules" and last names begin with "B."
-6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-<!--
-#### Bonus (Optional)
-As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
-
-1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
-   ```sql
-   from sqlalchemy import create_engine
-   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-   connection = engine.connect()
-   ```
-* Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
-* If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://martin-thoma.com/configuration-files-in-python/](https://martin-thoma.com/configuration-files-in-python/) for more information.
-
-2. Create a histogram to visualize the most common salary ranges for employees.
-3. Create a bar chart of average salary by title.
--->
+1. [List the following details of each employee: employee number, last name, first name, gender, and salary.](/output/Report1.csv)
+2. [List employees who were hired in 1986.](/output/Report2.csv)
+3. [List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.](/output/Report3.csv)
+4. [List the department of each employee with the following information: employee number, last name, first name, and department name.](/output/Report4.csv)
+5. [List all employees whose first name is "Hercules" and last names begin with "B."](/output/Report5.csv)
+6. [List all employees in the Sales department, including their employee number, last name, first name, and department name.](/output/Report6.csv)
+7. [List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.](/output/Report7.csv)
+8. [In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.](/output/Report8.csv)
