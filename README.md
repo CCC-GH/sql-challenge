@@ -1,15 +1,19 @@
-# sql-challenge
- 09-SQL HW
+### sql-challenge: 09-SQL HW 
 
+#### Data Modeling: Two ERD diagrams avail, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
+#### CSV input data: "EmployeeSQL" folder (6 of them)
+#### Data Engineering: "Full_Script_pgAdin4" (top section)
+#### Data Analysis: "Full_Script_pgAdin4" (bottom section)
+#### CSV output data: "output" folder, file name "Report[1-8]" (8 CSV lists)
+
+```Extra: Microsoft approach solution, MS-SQL-DB/SSMS, is also available within under "AnotherApproach_withMicrosoft-SQL"```
+
+### Assignment detail located within "HW" folder: 
 #### Data Modeling
-
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
-
+ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 #### Data Engineering
-
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
-
-* Import each CSV file into the corresponding SQL table.
+ * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+ * Import each CSV file into the corresponding SQL table.
 
 #### Data Analysis
 
@@ -50,7 +54,3 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 2. Create a histogram to visualize the most common salary ranges for employees.
 
 3. Create a bar chart of average salary by title.
-
-## Epilogue
-
-Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
