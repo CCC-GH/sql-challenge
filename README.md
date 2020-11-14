@@ -1,5 +1,7 @@
 ## 09-SQL(Structured Query Language) Homework
-![sql.png](/sq2.png)
+![sql-challenge](sql2.png)
+
+
 
 ## sql-challenge
 
