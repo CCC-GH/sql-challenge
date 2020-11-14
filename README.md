@@ -6,7 +6,7 @@
  * **Data Engineering** - within "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
  * **Data Analysis** - within "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
  * **Input CSV data** - "EmployeeSQL" folder (6 of them - listing below).
- * **Output CSV data** - data analysis "output" folder, file name "Report[1-8]" (8 CSV lists).
+ * **Output CSV data** - data analysis "output" folder, file name "Report[1-8]" *(see list/link below).*
  * **Assignment material** - located within "HW" folder.
 
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
