@@ -1,6 +1,11 @@
 ## 09-SQL Homework: sql-challenge
+![GitHub Logo](/images/logo.png)
+Format: ![Structured Query Language](url)
 
- * **Data Modeling:** Two ERD diagrams avail, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
+![sql.png](/hw/sql.png)
+Format: ![Structured Query Language](url)
+
+ * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
 
  * **Data Engineering:** "Full_Script_pgAdin4" (top section)
 
@@ -12,7 +17,7 @@
 
 *```Extra: Microsoft approach solution, MS-SQL-DB/SSMS, is also available within under "AnotherApproach_withMicrosoft-SQL"```*
 
-### Assignment detail *(located within "HW" folder)*: 
+### Assignment/Homework detail *(located within "HW" folder)*: 
 
 #### Data Modeling
  Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
