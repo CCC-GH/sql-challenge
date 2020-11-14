@@ -1,5 +1,4 @@
-## 09-SQL (Structured Query Language) Homework
-![](/HW/Instructions/sql2.png)
+## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
 ## sql-challenge
  * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
  * **Data Engineering:** "Full_Script_pgAdin4" (top section)
@@ -7,8 +6,7 @@
  * **Input CSV data:** "EmployeeSQL" folder (6 of them)
  * **Output CSV data:** "output" folder, file name "Report[1-8]" (8 CSV lists)
 
-   ```*Extra: Microsoft approach solution, MS-SQL-DB/SSMS, is also available within under "MS-SQL-SSMS_Approach"```*
-![](/MS-SQL-SSMS_Approach/ssms.PNG)
+   ```*Extra: Microsoft approach solution, MS-SQL-DB/SSMS, is also available within under "MS-SQL-SSMS_Approach"```*![](/MS-SQL-SSMS_Approach/ssms.PNG)
 ### Assignment/Homework detail *(located within "HW" folder)*: 
 
 #### Data Modeling
