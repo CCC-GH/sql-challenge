@@ -14,7 +14,7 @@
 --------------------------
 #### Data Analysis;  Report[1-8].csv
   
-> [output](/output) folder (note: a couple reports too large for display within github)
+> [output](/output) folder (note: a couple reports too large for display within github, Excel a good option)
 
 1. [List the following details of each employee: employee number, last name, first name, gender, and salary.](/output/Report1.csv)
 2. [List employees who were hired in 1986.](/output/Report2.csv)
