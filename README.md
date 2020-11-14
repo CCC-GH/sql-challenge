@@ -1,12 +1,12 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
 ## SQL-Challenge with PostgreSQL ![](/postgresImage.jpg)
  * **Data Modeling** - two Entity Relationship Diagram (ERD) diagrams available:
-     * ["ERD_Quickdatabasediagrams"](ERD_Quickdatabasediagrams.png) from the following website: (http://www.quickdatabasediagrams.com).
-     * ["ERD_MS-SSMS"](ERD_MS-SSMS.png) from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
+     * [ERD_Quickdatabasediagrams](ERD_Quickdatabasediagrams.png) from the following website: (http://www.quickdatabasediagrams.com).
+     * [ERD_MS-SSMS](ERD_MS-SSMS.png) from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
  * **Data Engineering** - run "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
  * **Data Analysis** - run "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
- * **Input CSV data** - located within ["EmployeeSQL" folder](/EmployeeSQL) (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
- * **Output CSV data** - within data analysis ["output" folder](/output), file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
+ * **Input CSV data** - located within [EmployeeSQL folder](/EmployeeSQL) (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
+ * **Output CSV data** - within data analysis [output folder](/output), file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
  * **Assignment material** - located within "HW" folder.
   
 
