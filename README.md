@@ -15,14 +15,14 @@
   
 > [output folder](/output)
 
-1. [List the following details of each employee: employee number, last name, first name, gender, and salary.](/output/report1)
-2. List employees who were hired in 1986.
-3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
-4. List the department of each employee with the following information: employee number, last name, first name, and department name.
-5. List all employees whose first name is "Hercules" and last names begin with "B."
-6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+1. [List the following details of each employee: employee number, last name, first name, gender, and salary.](/output/Report1.csv)
+2. [List employees who were hired in 1986.](/output/Report2.csv)
+3. [List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.](/output/Report3.csv)
+4. [List the department of each employee with the following information: employee number, last name, first name, and department name.](/output/Report4.csv)
+5. [List all employees whose first name is "Hercules" and last names begin with "B."](/output/Report5.csv)
+6. [List all employees in the Sales department, including their employee number, last name, first name, and department name.](/output/Report6.csv)
+7. [List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.](/output/Report7.csv)
+8. [In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.](/output/Report8.csv)
 <!--
 #### Bonus (Optional)
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
