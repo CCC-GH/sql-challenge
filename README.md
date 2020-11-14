@@ -1,13 +1,13 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
 ## SQL-Challenge with PostgreSQL ![](/postgres.jpg)
- * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available:
-     * "ERD_Quickdatabasediagrams" from the following website: http://www.quickdatabasediagrams.com 
-     * "ERD_MS-SSMS" from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design)
- * **Data Engineering:** "Full_Script_pgAdin4" (top section of full script creates database Tables/schema, keys, and loads 6 csv files.
- * **Data Analysis:** "Full_Script_pgAdin4" (bottom section of full script loads)
- * **Input CSV data:** "EmployeeSQL" folder (6 of them - listing below)
- * **Output CSV data:** Data Analysis "output" folder, file name "Report[1-8]" (8 CSV lists)
- * **Assignment material:** located within "HW" folder
+ * **Data Modeling:**  two Entity Relationship Diagram (ERD) diagrams available:
+     * "ERD_Quickdatabasediagrams" from the following website: http://www.quickdatabasediagrams.com.
+     * "ERD_MS-SSMS" from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
+ * **Data Engineering:**  within "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
+ * **Data Analysis:**  within "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
+ * **Input CSV data:**  "EmployeeSQL" folder (6 of them - listing below).
+ * **Output CSV data:**  data analysis "output" folder, file name "Report[1-8]" (8 CSV lists).
+ * **Assignment material:**  located within "HW" folder.
 
    > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
