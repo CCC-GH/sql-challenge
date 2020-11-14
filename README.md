@@ -2,13 +2,9 @@
 ![sql2.png](sql2.png)
 ## sql-challenge
  * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
-
  * **Data Engineering:** "Full_Script_pgAdin4" (top section)
-
  * **Data Analysis:** "Full_Script_pgAdin4" (bottom section)
-
  * **Input CSV data:** "EmployeeSQL" folder (6 of them)
- 
  * **Output CSV data:** "output" folder, file name "Report[1-8]" (8 CSV lists)
 
 *```Extra: Microsoft approach solution, MS-SQL-DB/SSMS, is also available within under "AnotherApproach_withMicrosoft-SQL"```*
@@ -16,7 +12,7 @@
 ### Assignment/Homework detail *(located within "HW" folder)*: 
 
 #### Data Modeling
- Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+ * Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
 #### Data Engineering
  * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
