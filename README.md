@@ -1,5 +1,4 @@
 ## 09-SQL(Structured Query Language) Homework
-
 ![sql2.png](sql2.png)
 ## sql-challenge
  * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
