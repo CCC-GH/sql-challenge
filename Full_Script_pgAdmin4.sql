@@ -60,6 +60,13 @@ COPY dept_emp(emp_no, dept_no)
 COPY dept_manager(dept_no, emp_no)
 	FROM 'C:\Users\coffm\GitHub\sql-challenge\EmployeeSQL\dept_manager.csv'
 	DELIMITER ',' CSV HEADER;
+-- Add Foreign Key relationships
+ALTER TABLE employees ADD FOREIGN KEY(emp_title_id) REFERENCES titles(title_id);
+ALTER TABLE salaries ADD FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
+ALTER TABLE dept_emp ADD FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
+ALTER TABLE dept_emp ADD FOREIGN KEY(dept_no) REFERENCES departments(dept_no);
+ALTER TABLE dept_manager ADD FOREIGN KEY(dept_no) REFERENCES departments(dept_no);
+ALTER TABLE dept_manager ADD FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
 -- Write Reports to CSV files within \output folder (note: "write" permission must be given to PostgreSQL-Server for CSV write access)
 -- 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 Copy (
@@ -125,10 +132,3 @@ Copy (
 		ORDER BY count DESC
 		) TO 'C:\Users\coffm\GitHub\sql-challenge\output\Report8.csv'
 	DELIMITER ',' CSV HEADER;
--- Add Foreign Key relationships
-ALTER TABLE employees ADD FOREIGN KEY(emp_title_id) REFERENCES titles(title_id);
-ALTER TABLE salaries ADD FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
-ALTER TABLE dept_emp ADD FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
-ALTER TABLE dept_emp ADD FOREIGN KEY(dept_no) REFERENCES departments(dept_no);
-ALTER TABLE dept_manager ADD FOREIGN KEY(dept_no) REFERENCES departments(dept_no);
-ALTER TABLE dept_manager ADD FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
