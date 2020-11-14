@@ -1,8 +1,8 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
 ## SQL-Challenge with PostgreSQL ![](/postgres.jpg)
  * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available:
-      "ERD_Quickdatabasediagrams" from the following website: http://www.quickdatabasediagrams.com 
-      "ERD_MS-SSMS" from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design)
+     * "ERD_Quickdatabasediagrams" from the following website: http://www.quickdatabasediagrams.com 
+     * "ERD_MS-SSMS" from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design)
  * **Data Engineering:** "Full_Script_pgAdin4" (top section of full script creates database Tables/schema, keys, and loads 6 csv files.
  * **Data Analysis:** "Full_Script_pgAdin4" (bottom section of full script loads)
  * **Input CSV data:** "EmployeeSQL" folder (6 of them - listing below)
