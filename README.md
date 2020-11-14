@@ -12,9 +12,9 @@
 
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
-#### Data Analysis;  Report[1-8].csv  *(stored in "output" folder)*
+#### Data Analysis;  Report[1-8].csv
   
-> [output](/output) folder (note: a couple reports to large to display in git)
+> [output](/output) folder (note: a couple reports too large for display within github)
 
 1. [List the following details of each employee: employee number, last name, first name, gender, and salary.](/output/Report1.csv)
 2. [List employees who were hired in 1986.](/output/Report2.csv)
