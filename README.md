@@ -1,7 +1,7 @@
 ## 09-SQL (Structured Query Language) Homework![](/HW/Instructions/sql2.png)
 ## SQL-Challenge with PostgreSQL ![](/postgres.jpg)
  * **Data Modeling** - two Entity Relationship Diagram (ERD) diagrams available:
-     * "ERD_Quickdatabasediagrams" from the following website: http://www.quickdatabasediagrams.com.
+     * "ERD_Quickdatabasediagrams" from the following website: (http://www.quickdatabasediagrams.com).
      * "ERD_MS-SSMS" from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
  * **Data Engineering** - within "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
  * **Data Analysis** - within "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
@@ -12,8 +12,8 @@
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
 #### Data Analysis;  Report[1-8].csv  *(stored in "output" folder)*
- 
-    > https://github.com/CCC-GH/sql-challenge/tree/main/output)
+  
+> (http://www.github.com/CCC_GH/sql-challenge/tree/main/output)
 
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 2. List employees who were hired in 1986.
