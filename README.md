@@ -1,8 +1,5 @@
 ## 09-SQL Homework: sql-challenge
-![GitHub Logo](/images/logo.png)
-Format: ![Structured Query Language](url)
-
-![sql.png](/hw/sql.png)
+![sql.png](/hw/instructions/sql.png)
 Format: ![Structured Query Language](url)
 
  * **Data Modeling:** Two Entity Relationship Diagram (ERD) diagrams available, "ERD_Quickdatabasediagrams" and "ERD_MS-SSMS"
