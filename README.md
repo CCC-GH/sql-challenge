@@ -27,6 +27,6 @@
 
 #### Bonus (Optional) - Completed
 1. Import the SQL database into Pandas: Bonus_jupyter.jpynb or Bonus_spyder.py
-2. Create a histogram to visualize the most common salary ranges for employees: [CommonSalaryRanges.png](/output/CommonSalaryRanges.png)
+2. Create a histogram to visualize the most common salary ranges for employees: [Bonus_CommonSalaryRanges.png](/output/Bonus_CommonSalaryRanges.png)
 3. Create a bar chart of average salary by title: [Bonus_AvgSalaryByTitle.png](/output/Bonus_AvgSalaryByTitle.png)
 
