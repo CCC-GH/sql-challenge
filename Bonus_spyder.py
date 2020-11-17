@@ -21,9 +21,10 @@ pyplot.hist(salaryData['salary'],label="Salary")
 pyplot.axvline(salaryData['salary'].mean(), color='r', label="Mean Salary (USD)")
 pyplot.xlabel("Salary (USD)")
 pyplot.ylabel("#Employees")
-pyplot.legend() 
+pyplot.legend()
 pyplot.title("Common Employee Salary Ranges")
 pyplot.savefig(".\output\Bonus_CommonSalaryRanges.png")
+pyplot.show()
 
 # Create a bar chart of average salary by title.
 
@@ -41,6 +42,6 @@ pyplot.title("Average Salary (USD) By Title")
 pyplot.xlabel("Title")
 pyplot.ylabel("Avg Salary (USD)")
 pyplot.grid(axis="y")
-pyplot.bar(xAxis, avgSalaryTitle , color="g", alpha=0.5, align="center")
+pyplot.bar(xAxis, avgSalaryTitle, color="g", alpha=0.5, align="center")
 pyplot.savefig(".\output\Bonus_AvgSalaryByTitle.png")
-
+pyplot.show()
