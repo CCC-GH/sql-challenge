@@ -25,8 +25,8 @@
 7. [List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.](/output/Report7.csv)
 8. [In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.](/output/Report8.csv)
 
-### Bonus (Optional) - Completed
-1. Import the SQL database into Pandas: Bonus_jupyter.jpynb/Bonus_spyder.py
-2. Create a histogram to visualize the most common salary ranges for employees: [](/output/Bonus/CommonSalaryRanges.PNG)
-3. Create a bar chart of average salary by title: [](/output/Bonus_AvgSalaryByTitle.PNG)
+#### Bonus (Optional) - Completed
+1. Import the SQL database into Pandas: Bonus_jupyter.jpynb or Bonus_spyder.py
+2. Create a histogram to visualize the most common salary ranges for employees: [Bonus_CommonSalaryRanges.png](/output/Bonus_CommonSalaryRanges.png)
+3. Create a bar chart of average salary by title: [Bonus_AvgSalaryByTitle.png](/output/Bonus_AvgSalaryByTitle.png)
 
