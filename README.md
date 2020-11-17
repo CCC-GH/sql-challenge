@@ -3,12 +3,12 @@
  * **Data Modeling** - two Entity Relationship Diagram (ERD) diagrams available:
      * [ERD_Quickdatabasediagrams](ERD_Quickdatabasediagrams.PNG) from the following website: (http://www.quickdatabasediagrams.com).
      * [ERD_MS-SSMS](ERD_MS-SSMS.PNG) from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
- * **Data Engineering** - run/view "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 csv files.
- * **Data Analysis** - run/view "Full_Script_pgAdin4" script, bottom section queries and outputs to CSV ("output" folder).
+ * **Data Engineering** - run/view "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 CSV files.
+ * **Data Analysis** - run/view "Full_Script_pgAdin4" script, bottom section queries with code to output to CSV ([output](/output) folder).
  * **Input CSV data** - located within [EmployeeSQL](/EmployeeSQL) folder (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
  * **Output CSV data** - within data analysis [output](/output) folder, file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
+ * **Bonus Accomplished** - **Bonus_spyder.py** script, two Bonus report output located in [output](/output) folder
  * **Assignment material** - located within [HW](/HW) folder.
- * **Bonus material** - Bonus_spyder.py script, output located in /output folder
 
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
