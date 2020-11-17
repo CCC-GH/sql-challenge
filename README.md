@@ -8,7 +8,7 @@
  * **Input CSV data** - located within [EmployeeSQL](/EmployeeSQL) folder (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
  * **Output CSV data** - within data analysis [output](/output) folder, file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
  * **Assignment material** - located within [HW](/HW) folder.
- * **Bonus material** - Bonus_jupyter and Bonus_spyder scripts, output located in /output folder
+ * **Bonus material** - Bonus_spyder.py script, output located in /output folder
 
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
 --------------------------
@@ -26,7 +26,6 @@
 8. [In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.](/output/Report8.csv)
 
 #### Bonus (Optional) - Completed
-1. Import the SQL database into Pandas: Bonus_jupyter.jpynb or Bonus_spyder.py
+1. Import the SQL database into Pandas: Bonus_spyder.py
 2. Create a histogram to visualize the most common salary ranges for employees: [Bonus_CommonSalaryRanges.png](/output/Bonus_CommonSalaryRanges.png)
 3. Create a bar chart of average salary by title: [Bonus_AvgSalaryByTitle.png](/output/Bonus_AvgSalaryByTitle.png)
-
