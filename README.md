@@ -3,8 +3,8 @@
  * **Data Modeling** - two Entity Relationship Diagram (ERD) diagrams available:
      * [ERD_Quickdatabasediagrams](ERD_Quickdatabasediagrams.PNG) from the following website: (http://www.quickdatabasediagrams.com).
      * [ERD_MS-SSMS](ERD_MS-SSMS.PNG) from SQL Server Management Studio's "Database Diagrams" utility (generated from actual Table schema design).
- * **Data Engineering** - run/view "Full_Script_pgAdin4" script, top section of full script creates database Tables/schema, keys, and loads 6 CSV files.
- * **Data Analysis** - run/view "Full_Script_pgAdin4" script, bottom section queries with code to output to CSV ([output](/output) folder).
+ * **Data Engineering** - run/view **Full_Script_pgAdin4** script, top section of full script creates database Tables/schema, keys, and loads 6 CSV files.
+ * **Data Analysis** - run/view **Full_Script_pgAdin4** script, bottom section queries with code to output to CSV ([output](/output) folder).
  * **Input CSV data** - located within [EmployeeSQL](/EmployeeSQL) folder (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
  * **Output CSV data** - within data analysis [output](/output) folder, file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
  * **Bonus Accomplished** - **Bonus_spyder.py** script, two Bonus report output located in [output](/output) folder
@@ -26,6 +26,6 @@
 8. [In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.](/output/Report8.csv)
 
 #### Bonus (Optional) - Completed
-1. Import the SQL database into Pandas: Bonus_spyder.py
+1. Import the SQL database into Pandas: **Bonus_spyder.py**
 2. Create a histogram to visualize the most common salary ranges for employees: [Bonus_CommonSalaryRanges.png](/output/Bonus_CommonSalaryRanges.png)
 3. Create a bar chart of average salary by title: [Bonus_AvgSalaryByTitle.png](/output/Bonus_AvgSalaryByTitle.png)
