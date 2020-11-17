@@ -7,7 +7,7 @@
  * **Data Analysis** - run/view **Full_Script_pgAdin4** script, bottom section queries with code to output to CSV ([output](/output) folder).
  * **Input CSV data** - located within [EmployeeSQL](/EmployeeSQL) folder (Qty-6) *Note: PostgreSQL server requires "read" access to this folder/files*
  * **Output CSV data** - within data analysis [output](/output) folder, file names "Report[1-8]" *Note: PostgreSQL server requires "write" access to this folder/files*
- * **Bonus Accomplished** - **Bonus_spyder.py** script, two Bonus report output located in [output](/output) folder
+ * **Bonus Accomplished** - run/view **Bonus_spyder.py** script with its two Bonus reports outputed to [output](/output) folder
  * **Assignment material** - located within [HW](/HW) folder.
 
     > In addition, a Microsoft SQL-SSMS approach/solution is available within "MS-SQL-SSMS_Approach folder" ![](/MS-SQL-SSMS_Approach/ssms.PNG)
